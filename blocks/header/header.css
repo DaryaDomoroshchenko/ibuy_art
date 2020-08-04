@@ -1,0 +1,30 @@
+@import url(./__nav-container/header__nav-container.css);
+@import url(./__logo/header__logo.css);
+@import url(./__menu/header__menu.css);
+@import url(./__button/header__button.css);
+@import url(./__search-container/header__search-container.css);
+@import url(./__input/header__input.css);
+@import url(./__filter/header__filter.css);
+
+.header {
+  font-family: 'Roboto', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1079px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column-reverse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

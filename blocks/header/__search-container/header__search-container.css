@@ -1,0 +1,17 @@
+.header__search-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1079px) {
+  .header__search-container {
+    margin-bottom: 20px;
+    min-width: 418px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__search-container {
+    margin-bottom: 10px;
+  }
+}

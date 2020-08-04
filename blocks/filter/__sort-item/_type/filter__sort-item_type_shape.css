@@ -1,0 +1,9 @@
+.filter__sort-item_type_shape {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter__sort-item_type_shape {
+    margin-bottom: 34px;
+  }
+}

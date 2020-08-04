@@ -1,0 +1,5 @@
+.root__container {
+  min-width: 414px;
+  max-width: 1080px;
+  margin: 0 auto;
+}

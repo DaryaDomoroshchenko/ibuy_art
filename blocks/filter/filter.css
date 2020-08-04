@@ -1,0 +1,27 @@
+@import url(./__settings/filter__settings.css);
+@import url(./__wrap/filter__wrap.css);
+@import url(./__sort-item/filter__sort-item.css);
+@import url(./__title/filter__title.css);
+@import url(./__close-img/filter__close-img.css);
+@import url(./__subtitle/filter__subtitle.css);
+@import url(./__container/filter__container.css);
+@import url(./__button/filter__button.css);
+@import url(./__caption/filter__caption.css);
+@import url(./__range/filter__range.css);
+@import url(./__apply-btn/filter__apply-btn.css);
+
+.filter {
+  background-color: #D1D1D1;
+  width: 426px;
+  height: calc(100vh + 60px);
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .filter {
+    width: 414px;
+  }
+}

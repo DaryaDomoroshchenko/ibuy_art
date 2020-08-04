@@ -1,0 +1,18 @@
+.root__paddings {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .root__paddings {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root__paddings {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+

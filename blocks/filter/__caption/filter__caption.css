@@ -1,0 +1,15 @@
+.filter__caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  color: #717171;
+  margin: 20px 0 0;
+  align-self: center;
+}
+
+@media screen and (max-width: 767px) {
+  .filter__caption {
+    margin: 16px 0 0;
+  }
+}

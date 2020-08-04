@@ -1,0 +1,20 @@
+.header__logo {
+  background-image: url('../../../images/logo_light-theme.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 96px;
+  height: 17px;
+  display: block;
+  margin-right: 42px;
+  transition: opacity .4s ease-out;
+}
+
+.header__logo:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1079px) {
+  .header__logo {
+    display: none;
+  }
+}

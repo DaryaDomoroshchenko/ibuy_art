@@ -1,0 +1,38 @@
+.header__input {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: #717171;
+  background-color: #D1D1D1;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  width: 356px;
+  height: 40px;
+  margin-right: 37px;
+  padding: 0 0 0 38px;
+  background-image: url(../../../images/Shape@3x.svg);
+  background-repeat: no-repeat;
+  background-position: 16px 13px;
+  transition: opacity .4s ease-out;
+}
+
+.header__input:hover {
+  opacity: .7;
+}
+
+.header__input:focus {
+  opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+  .header__input {
+    width: 356px;
+    height: 30px;
+    margin-right: 17px;
+    background-position: 16px 8px;
+  }
+}

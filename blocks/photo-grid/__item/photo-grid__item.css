@@ -1,0 +1,10 @@
+.photo-grid__item {
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: box-shadow .4s ease-out;
+}
+
+.photo-grid__item:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .2);
+}

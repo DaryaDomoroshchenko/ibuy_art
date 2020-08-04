@@ -1,0 +1,10 @@
+.filter__close-img {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: opacity .4s ease-out;
+}
+
+.filter__close-img:hover {
+  opacity: .7;
+}

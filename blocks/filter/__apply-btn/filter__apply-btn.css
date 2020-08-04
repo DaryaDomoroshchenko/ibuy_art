@@ -1,0 +1,21 @@
+.filter__apply-btn {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #1B1B1B;
+  background-color: #DBDBDB;
+  border: none;
+  width: inherit;
+  height: 60px;
+  outline: none;
+  cursor: pointer;
+  transition: opacity .4s ease-out;
+  position: fixed;
+  top: calc(100% - 60px);
+  padding: 0;
+}
+
+.filter__apply-btn:hover {
+  opacity: .7;
+}

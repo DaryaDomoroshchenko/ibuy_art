@@ -1,0 +1,14 @@
+@import url(./__container/root__container.css);
+@import url(./__paddings/root__paddings.css);
+@import url(../header/header.css);
+@import url(../photo-grid/photo-grid.css);
+@import url(../tab-bar/tab-bar.css);
+@import url(../tab-bar-mini/tab-bar-mini.css);
+@import url(../range-slider/range-slider.css);
+@import url(../filter/filter.css);
+@import url(../button/button.css);
+@import url(./__hide/root__hide.css);
+
+.root {
+  background-color: #DBDBDB;
+}

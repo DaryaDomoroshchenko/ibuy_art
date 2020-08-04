@@ -1,0 +1,11 @@
+.filter__button {
+  width: 86px;
+  height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter__button {
+    width: 86px;
+    height: 35px;
+  }
+}

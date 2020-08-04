@@ -1,0 +1,12 @@
+.filter__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 34px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter__wrap {
+    margin: 0 0 26px;
+  }
+}

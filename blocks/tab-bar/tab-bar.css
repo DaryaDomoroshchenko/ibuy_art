@@ -1,0 +1,25 @@
+@import url(./__item/tab-bar__item.css);
+@import url(./__image/tab-bar__image.css);
+@import url(./__caption/tab-bar__caption.css);
+
+.tab-bar {
+  border-radius: 45px;
+  width: 910px;
+  height: 90px;
+  box-sizing: border-box;
+  background-color: #E8E8E8;
+  opacity: .8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 88px;
+  position: fixed;
+  bottom: 30px;
+  left: calc(50% - 455px);
+}
+
+@media screen and (max-width: 1023px) {
+  .tab-bar {
+    display: none;
+  }
+}

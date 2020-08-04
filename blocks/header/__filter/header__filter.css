@@ -1,0 +1,20 @@
+.header__filter {
+  background-image: url('../../../images/mixer@3x.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  display: block;
+  transition: opacity .4s ease-out;
+}
+
+.header__filter:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 767px) {
+  .header__filter {
+    width: 17px;
+    height: 17px;
+  }
+}

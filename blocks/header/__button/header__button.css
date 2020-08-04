@@ -1,0 +1,30 @@
+.header__button {
+  width: 86px;
+  height: 40px;
+  margin-right: 18px;
+}
+
+.header__button:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1079px) {
+  .header__button {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 767px) {
+  .header__button {
+    height: 30px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .header__button {
+    height: 30px;
+    width: 84px;
+    margin-right: 18px;
+  }
+}

@@ -1,0 +1,71 @@
+.noUi-horizontal {
+  background-color: #EBEBEB;
+  height: 6px;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .noUi-horizontal {
+    height: 5.25px;
+  }
+}
+
+.noUi-connect {
+  background-color: #717171;
+  height: 6px;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .noUi-connect {
+    height: 5.25px;
+  }
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 25px;
+  height: 22px;
+  border-radius: 50%;
+  top: -8px;
+}
+
+@media screen and (max-width: 767px) {
+  .noUi-horizontal .noUi-handle {
+    width: 25px;
+    height: 25px;
+    top: -10px;
+  }
+}
+
+.noUi-handle {
+  cursor: pointer;
+  outline: none;
+}
+
+.noUi-handle::before {
+  display: none;
+}
+
+.noUi-handle::after {
+  display: none;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: -170%;
+  background-color: #EBEBEB;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #717171;
+}
+
+@media screen and (max-width: 767px) {
+  .noUi-horizontal .noUi-tooltip {
+    bottom: -150%;
+  }
+}
+
+#r-slider {
+  margin-top: 15px;
+}

@@ -1,0 +1,11 @@
+.tab-bar__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity .4s ease-out;
+}
+
+.tab-bar__item:hover {
+  opacity: .7;
+}

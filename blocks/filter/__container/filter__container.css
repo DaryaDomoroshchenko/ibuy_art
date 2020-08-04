@@ -1,0 +1,11 @@
+.filter__container {
+  display: grid;
+  grid-template-columns: repeat(4, 86px);
+  grid-gap: 20px 9px;
+}
+
+@media screen and (max-width: 767px) {
+  .filter__container {
+    grid-gap: 17.5px 9px;
+  }
+}
